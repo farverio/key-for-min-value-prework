@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
   smallest_value = Float::INFINITY
   smallest_key = ""
   
+  binding.pry
   if name_hash.empty?
     smallest_key = nil
   else name_hash.map do |key, value|
