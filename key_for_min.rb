@@ -8,11 +8,12 @@ def key_for_min_value(name_hash)
   if name_hash.empty?
     smallest_key = nil
   else name_hash.map do |key, value|
-    puts "WTFFFF: #{smallest_key}"
+    puts "asdfasdfasdfasdf"
     if value < smallest_value
       smallest_value = value
       smallest_key = key
     end
   end
+  
   smallest_key
 end
