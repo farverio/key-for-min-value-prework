@@ -4,8 +4,6 @@
 def key_for_min_value(name_hash)
   smallest_value = Float::INFINITY
   smallest_key = ""
-
-puts name_hash.empty?
   
   if name_hash.empty?
     smallest_key = nil
