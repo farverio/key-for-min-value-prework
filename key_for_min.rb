@@ -1,12 +1,11 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
-require 'pry'
 
 def key_for_min_value(name_hash)
   smallest_value = Float::INFINITY
   smallest_key = ""
-  
-  binding.pry
+
+  puts "TESTTTTTTTTT"
   if name_hash.empty?
     smallest_key = nil
   else name_hash.map do |key, value|
